@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #element {
+            color: lavender;
+        }
+
+        section {
+            height: 50vh;
+            width: 100%;
+            margin-top: -50px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* .image1{
+            background-color: aqua;
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="font1-AG.png" class="logo" width="100%" height="30px">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1 style="width:100%">Hi, I'm <span>Aman</span><br>Gupta
+                    And A Passionate<br><span>Front End Web Developer.</span>
+                </h1>
+                <span id="element"></span>
+            </div>
+        </div>
+        <img class="image" src="image.png" width="100%">
+    </div>
+    <!-- <hr style="
+    border:0;
+    background:#9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+    "> -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Amanphoto.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <br>
+                    <p>Welcome to my portfolio! My name is <b>Aman Gupta</b> and I'm a B.Tech student studying at
+                        <i>Netaji Subhash University Of Technology</i>. As a dedicated student and lifelong learner, I'm
+                        always seeking new challenges and opportunities to grow. In my free time, I enjoy playing video
+                        games and attending tech conferences.
+                    </p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Designer</span><br>Designing Front End</li>
+                            <li><span>Database</span><br>SQL</li>
+                            <li><span>Programming Languages</span><br>C++, HTML/CSS, JAVASCRIPT, React</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Btech Computer Science from NSUT</li>
+                            <li><span>2021</span><br>Jee Mains All India Rank:3369</li>
+                            <li><span>2021</span><br>12th From Vidya Bharti School</li>
+                            <li><span>2019</span><br>10th From Vidya Bharti School</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr style="
+                border:0;
+                background:#9c97f1;
+                height: 1.2px;
+                margin: 40px 84px;
+                ">
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <br>
+            <br>
+            <div class="work-list">
+                <div class="work">
+                    <a href="https://tour-websitename.netlify.app/" target="_blank">
+                        <img src="images/tour.jpg" alt="">
+                    </a>
+                    <br>
+                    <div class="layer">
+                        <h3>Tour Wesite</h3>
+                        <br>
+                        <p>This website allow job seekers
+                            <br>to search for job opportunities based on
+                            <br>various criteria such as location, industry.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="work">
+                    <a href="https://analog-clockbrainz.netlify.app/" target="_blank">
+                        <img src="images/clock.jpg">
+                    </a>
+                    <br>
+                    <h3>Analog Clock</h3>
+                    <br>
+                    <p> The clock's design is visually appealing
+                        <br>and responsive,adapting to different
+                        <br>screen sizes and orientations.
+                    </p>
+                </div>
+                <div class="work">
+                    <a href="https://calculator-amaze.netlify.app/" target="_blank">
+                        <img src="images/calculator.jpg" alt="">
+                    </a>
+                    <br>
+                    <h3>Calculator</h3>
+                    <br>
+                    <p>The calculator project is a web development
+                        <br>endeavor that involves creating a functional
+                        <br>and user-friendly calculator as an
+                        <br>interactive element.
+                    </p>
+                </div>
+            </div>
+            <div class="project-text">
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet mi vel ligula sodales luctus.</p> -->
+            </div>
+        </div>
+    </div>
+    <!-- <div id="contacts">
+        <div class="container1">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right" >
+                    <h2>Contact Us</h2>
+                        <input type="text" class="field" placeholder="Your Name">
+                        <input type="text" class="field" placeholder="Your Email">
+                        <input type="text" class="field" placeholder="Phone">
+                        <textarea placeholder="Message" class="field"></textarea>
+                        <button class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"> 
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p></i>aman.gupta.ug21@nsut.ac.in</p>
+                    <p></i>+91-9818628122</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100083690378533" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/aman.1234gupta/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aman-gupta-198753249/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+    <script>
+        // var typed = new Typed('#element', {
+
+        //   strings: ['Front End Web Developer'],
+        //   typeSpeed: 50,
+        // });
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxfoNb89BuBudUD0J_87HaeeXPpVsjCDtkJvor_LD04Mn4VbGKZfTo6rJyZ5T46IPG6rA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                     msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyH3ae1M7Aw1ZouT605J_0PRTl2sGve1O2KCxmCxPOD_KXY-c6KSaBwpIWqmcjVUGF6/exec'
+        const form = document.getElementsByName('submit-to-google-sheet')[0];
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script> -->
+    
+</body>
+
+</html>
